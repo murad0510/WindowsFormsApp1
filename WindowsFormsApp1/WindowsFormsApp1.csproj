@@ -100,5 +100,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-ball-point-pen-24.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-diamond-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-diamond-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-24 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
