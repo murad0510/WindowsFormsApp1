@@ -35,7 +35,7 @@
             this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton3 = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.ElaveQiymetComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.SuspendLayout();
             // 
@@ -126,23 +126,23 @@
             this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton3.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
-            // guna2ComboBox1
+            // ElaveQiymetComboBox
             // 
-            this.guna2ComboBox1.AutoRoundedCorners = true;
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Blue;
-            this.guna2ComboBox1.BorderRadius = 17;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.Silver;
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(604, 3);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(63, 36);
-            this.guna2ComboBox1.TabIndex = 7;
+            this.ElaveQiymetComboBox.AutoRoundedCorners = true;
+            this.ElaveQiymetComboBox.BackColor = System.Drawing.Color.Transparent;
+            this.ElaveQiymetComboBox.BorderColor = System.Drawing.Color.Blue;
+            this.ElaveQiymetComboBox.BorderRadius = 17;
+            this.ElaveQiymetComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ElaveQiymetComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ElaveQiymetComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ElaveQiymetComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ElaveQiymetComboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.ElaveQiymetComboBox.ForeColor = System.Drawing.Color.Silver;
+            this.ElaveQiymetComboBox.ItemHeight = 30;
+            this.ElaveQiymetComboBox.Location = new System.Drawing.Point(604, 3);
+            this.ElaveQiymetComboBox.Name = "ElaveQiymetComboBox";
+            this.ElaveQiymetComboBox.Size = new System.Drawing.Size(63, 36);
+            this.ElaveQiymetComboBox.TabIndex = 7;
             // 
             // guna2ComboBox2
             // 
@@ -167,7 +167,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2ComboBox2);
-            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.ElaveQiymetComboBox);
             this.Controls.Add(this.guna2RadioButton3);
             this.Controls.Add(this.guna2RadioButton2);
             this.Controls.Add(this.guna2RadioButton1);
@@ -191,7 +191,7 @@
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton1;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton3;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox ElaveQiymetComboBox;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
     }
 }

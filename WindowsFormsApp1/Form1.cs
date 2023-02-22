@@ -18,7 +18,38 @@ namespace WindowsFormsApp1
             InitializeComponent();
             guna2HtmlLabel1.Text = "FSDM_3912_az(Основы разработки приложений с использованием Windows Forms и WPF(CT - 3)))";
 
-            
+            List<int> studentsRate = new List<int>()
+            {
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            };
+
+            List<int> studentsRate2 = new List<int>()
+            {
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            };
+
 
             Students = new List<Students>
             {
@@ -41,7 +72,7 @@ namespace WindowsFormsApp1
             {
                 var uc = new UserControl1();
                 uc.Fullname = item.FullName;
-                uc.Location=new Point(0, y);
+                uc.Location = new Point(0, y);
                 y += 100;
                 this.Controls.Add(uc);
             }

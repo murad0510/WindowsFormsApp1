@@ -14,8 +14,8 @@ namespace WindowsFormsApp1
     {
         public string Fullname
         {
-            get { return guna2ComboBox1.Text; }
-            set { guna2ComboBox1.Text = "fd"; }
+            get { return ElaveQiymetComboBox.Text; }
+            set { ElaveQiymetComboBox.Text = "fd"; }
         }
 
         public UserControl1()
