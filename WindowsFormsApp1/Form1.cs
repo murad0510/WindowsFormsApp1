@@ -149,7 +149,7 @@ namespace WindowsFormsApp1
             {
                 if (item is UserControl1 uc)
                 {
-                    uc.Enabled = true;
+                    uc.GreenBtn.Checked = true;
                 }
             }
         }
