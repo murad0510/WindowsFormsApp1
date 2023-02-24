@@ -98,7 +98,7 @@ namespace WindowsFormsApp1
             {
                 label.Text = guna2TextBox1.Text;
             }
-            label.Location = new Point(969, 63);
+            label.Location = new Point(990, 65);
             label.Font = new Font("Oblique", 12);
             label.ForeColor = Color.Gray;
             this.Controls.Remove(guna2TextBox);
